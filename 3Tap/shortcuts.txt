@@ -1,0 +1,3 @@
+﻿GitHub|http://github.com
+Excel|Excel.exe
+Word|Winword.exe
