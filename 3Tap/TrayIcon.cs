@@ -84,7 +84,7 @@ namespace ThreeTap
 
             MenuItem shortcuts = trayMenu.MenuItems.Add("Shortcuts");
             try {
-                string path = Path.GetDirectoryName(Application.ExecutablePath);
+                string path = ClickOnce.GetDataDirectory();
                 string[] lines = File.ReadAllLines(path + "\\shortcuts.txt");
                 foreach (string line in lines)
                 {
